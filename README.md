@@ -9,11 +9,12 @@
 * STEP 1
   - Used 2020-2021 IMDB Dataset (gathered information about movie title/runtime/ratings)
 * STEP 2
-  - Used 2020-2021 IMDB Dataset (gathered information about movie title/runtime/ratings)
-   
-* Preprocessing
-  - Divided 'timestamp' by year, month, day of week, and hour
-     <img width="671" alt="Screen Shot 2022-06-13 at 9 56 47 PM" src="https://user-images.githubusercontent.com/98932859/173358820-f52f57a5-07cc-4604-abb3-9ae2d9690611.png">
+  - Web crawled revenue data for each movie from Box Office Mojo website
+* STEP 3
+  - Gathered data about castings for each movie using IMDB 'title.principals' (since the data were extremely large, I used PySpark)
+  - Mapped 'title.principals' with 'movie.id' to match castings with movies   
+* STEP 4
+  - Created 'past performance metrics' to display the ability of each casts
     
   - Removed outliers     
      <img width="669" alt="Screen Shot 2022-06-13 at 9 59 00 PM" src="https://user-images.githubusercontent.com/98932859/173359110-4b9d1177-73af-4016-9f6e-5a9ae52a8942.png">
