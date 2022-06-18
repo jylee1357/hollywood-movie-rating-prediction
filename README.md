@@ -27,6 +27,9 @@
   - Random Forest
   - Gradient Boostings
   - Support Vector Machine
+* Prediction Result (Movie Ratings)
+  <img width="1012" alt="Screen Shot 2022-06-18 at 2 27 33 PM" src="https://user-images.githubusercontent.com/98932859/174424232-cb79c39e-af8e-41d7-8047-8467ce6c8334.png">
+
     
    - Time series model's RMSE
     <img width="997" alt="Screen Shot 2022-06-13 at 10 17 13 PM" src="https://user-images.githubusercontent.com/98932859/173362374-c2c3510f-da8d-4365-8b4d-ebf1375be862.png">
