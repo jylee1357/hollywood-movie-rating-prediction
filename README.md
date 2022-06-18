@@ -28,12 +28,12 @@
   - Gradient Boostings
   - Support Vector Machine
 * Prediction Result (Movie Ratings)
-  <img width="1012" alt="Screen Shot 2022-06-18 at 2 27 33 PM" src="https://user-images.githubusercontent.com/98932859/174424232-cb79c39e-af8e-41d7-8047-8467ce6c8334.png">
+  <img width="996" alt="Screen Shot 2022-06-18 at 2 28 30 PM" src="https://user-images.githubusercontent.com/98932859/174424257-cee2525a-e26e-4c16-b777-ae8fa4f6834e.png">
+* Prediction Result (Movie Revenue)
+  <img width="996" alt="Screen Shot 2022-06-18 at 2 28 30 PM" src="https://user-images.githubusercontent.com/98932859/174424294-6bd4be41-b4af-4f08-a54e-6e169c73ec43.png">
 
-    
-   - Time series model's RMSE
-    <img width="997" alt="Screen Shot 2022-06-13 at 10 17 13 PM" src="https://user-images.githubusercontent.com/98932859/173362374-c2c3510f-da8d-4365-8b4d-ebf1375be862.png">
-    
 ### 📍 Takeaway
-* In deep learning model, Random Forest Regressor scored the lowest RMSE
-* In time series model, LSTM scored the lowest RMSE
+* In movie ratings prediction, Random Forest Classifier achieved the highest accuracy
+* In movie revenue prediction, Linear Regression achieved the highest R-Squared
+* In Lasso Regression, 'past movie rating' turned out to be the most important feature
+* In Random Forest model, 'cast acting experience' turned out to be the most important feature
