@@ -21,7 +21,7 @@
   - Merged 'past performance metric' that was calculated in step4 with basic movie infos
   - The final performance metric was calculated per movie by adding the 'past performance metric' of the entire casts within each movie.
 
-### ⌨️ Models
+### ⌨️ Models
 * Lists of Models 
   - Linear & Logisitc Regression (with K-Fold Cross Validation)
   - Random Forest
