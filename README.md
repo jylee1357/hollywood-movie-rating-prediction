@@ -15,13 +15,11 @@
   - Mapped 'title.principals' with 'movie.id' to match castings with movies   
 * STEP 4
   - Created 'past performance metrics' to display the ability of each casts
-    
-  - Removed outliers     
-     <img width="669" alt="Screen Shot 2022-06-13 at 9 59 00 PM" src="https://user-images.githubusercontent.com/98932859/173359110-4b9d1177-73af-4016-9f6e-5a9ae52a8942.png">
-
-  - Changed 'weather_code', 'season', 'year', 'month', 'hour' into dummy variables    
-     <img width="672" alt="Screen Shot 2022-06-13 at 10 01 31 PM" src="https://user-images.githubusercontent.com/98932859/173359580-a88feb14-238c-437b-8d87-7b30fd9ca64f.png">  
-    
+  - Data Features  
+    <img width="564" alt="Screen Shot 2022-06-18 at 2 12 31 PM" src="https://user-images.githubusercontent.com/98932859/174423818-93860ad9-e9c1-4cb6-b970-327cf32c50e1.png">
+* STEP 5
+  - Merged 'past performance metric' that was calculated in step4 with basic movie infos
+  - The final performance metric was calculated per movie by adding the 'past performance metric' of the entire casts within each movie.
 
 ### ⌨️ Models
 * Model Comparison 
